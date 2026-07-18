@@ -1,0 +1,29 @@
+{
+  "name": "neturion-contracts",
+  "version": "1.0.0",
+  "description": "**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^7.0.0",
+    "hardhat": "^3.10.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.1.8",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.7",
+    "@types/node": "^22.20.1",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "typescript": "~6.0.3",
+    "viem": "^2.55.2"
+  }
+}
